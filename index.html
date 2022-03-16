@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<script>
+    let clear = document.querySelectorAll('.clear-input');
+    clear.forEach(element => {
+        element.addEventListener("click", function (i) {
+            //this
+        })
+    });
+</script>
+
+<body>
+    <p>
+        <button class="btn">Нажми меня</button>
+        <button class="btn">Применить</button>
+    </p>
+
+    <p>
+        <button class="btn btn__white">Нажми меня</button>
+        <button class="btn btn__white">Применить</button>
+    </p>
+
+    <p>
+    <div class="inp">
+        <input type="text">
+        <button class="clear-input">
+            <span class="material-icons">close</span>
+        </button>
+    </div>
+
+    </p>
+
+</body>
+
+</html>
